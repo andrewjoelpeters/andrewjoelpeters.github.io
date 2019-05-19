@@ -1,7 +1,7 @@
 ---
 layout: post
 title: My Single Favorite Book
-category: news
+date: 2014-04-30
 ---
 
 ## Introduction (2 min read)
