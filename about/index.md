@@ -1,7 +1,6 @@
 ---
-layout: page
+layout: default
 title: About
-permalink: /about/
 ---
 
 **Hi, I'm Andrew Peters.** I like challenges and big questions. I tend to think things can be done better. Reach out at _hi@andrewjoelpeters.com_.
