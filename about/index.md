@@ -2,8 +2,9 @@
 layout: default
 title: About
 ---
+# About Me
 
-**Hi, I'm Andrew Peters.** I like challenges and big questions. I tend to think things can be done better. Reach out at _hi@andrewjoelpeters.com_.
+I like challenges and big questions. I tend to think things can be done better. Reach out at _hi@andrewjoelpeters.com_.
 
 Books are important to me. What I'm currently reading:
 

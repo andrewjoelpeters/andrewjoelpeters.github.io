@@ -2,6 +2,8 @@
 layout: post
 title: My Single Favorite Book
 date: 2010-01-30
+category: thoughts
+
 ---
 
 ## Introduction (2 min read)

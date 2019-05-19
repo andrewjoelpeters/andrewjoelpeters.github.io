@@ -2,24 +2,13 @@
 layout: default
 title: CV
 ---
+# CV
 
-# Andrew Peters
-## Technically-Minded Project Manager, General Nerd
-
-206.383.1247
-hi@andrewjoelpeters.com
-
----
-
-
-
----
-
-### EXPERIENCE
+## EXPERIENCE
 
 **Success Academy Charter Schools**
 
-Education Manager, *Jul. 2018 - Present*
+Education Manager, *Jul. 2018 - Present*; 
 Education Coordinator, *Jul. 2017 - Jul. 2018*
 
   Analyzed assessment and behavioral data to identify at-risk students and determine interventions. Developed dashboard, personalized email update, and progress report systems to effectively communicate above data to staff and parents. Led all stages of the special education process, from building case to requesting parental consent. Managed testing logistics projects involving over 30 staff members
@@ -42,7 +31,7 @@ Digital Editor, *Sept. 2011 - May 2015*
 
 Founded the first student-run blog to represent St. John’s College. Attracted 2.3k monthly views for a school that only admits 100 students in the freshman class. Increased average visit duration by 8% over the traditional admissions site, to 4:03s. Produced email marketing campaigns sent to over 30,000 recipients.
 
-### TECHNICAL
+## TECHNICAL
 
 * Python 3
 * NumPy
@@ -53,7 +42,7 @@ Founded the first student-run blog to represent St. John’s College. Attracted 
 * Spreadsheet Expert
 * APIs - Twilio, SendGrid, S3
 
-### EDUCATION
+## EDUCATION
 
 **B.A., St. John’s College, Santa Fe**
 
