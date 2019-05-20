@@ -1,4 +1,4 @@
-body { margin: 60px auto; width: 70%; }
+body { margin: 10px auto; width: 90%; }
 
 a { text-decoration: none; color: #999; }
 a:hover { text-decoration: underline; }
@@ -23,6 +23,7 @@ ul.posts li { list-style: none}
 ul.posts a {color: #333}
 
 @media (min-width: 600px) {
+    body { margin: 60px auto; width: 70%; }
     p, ul { font-size: 1.3em; line-height: 1.5em; color: #333; font-family: 'Lato', sans-serif; }
 
 
