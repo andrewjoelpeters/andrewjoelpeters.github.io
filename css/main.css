@@ -44,7 +44,7 @@ ul.posts a {color: #333}
     position: absolute;
     z-index: 1;
     top: -5px;
-    left: 110%;
+    left: 115%;
   
     /* Fade in tooltip */
     opacity: 0;
