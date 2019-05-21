@@ -29,6 +29,7 @@ ul.posts a {color: #333}
   }
   
   /* Tooltip text */
+
   .tooltip .tooltiptext {
     visibility: hidden;
     width: 120px;
@@ -40,13 +41,27 @@ ul.posts a {color: #333}
     font-size: 1.1em; line-height: 1.5em; font-family: 'Lato', sans-serif;
   
     /* Position the tooltip text */
-    position: bottom;
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 110%;
   
     /* Fade in tooltip */
     opacity: 0;
     transition: opacity 0.3s;
   }
   
+    /* Arrow */
+    .tooltip .tooltiptext::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      right: 100%;
+      margin-top: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: transparent black transparent transparent;
+    }
   
   /* Show the tooltip text when you mouse over the tooltip container */
   .tooltip:hover .tooltiptext {
