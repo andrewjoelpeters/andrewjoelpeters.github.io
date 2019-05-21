@@ -63,11 +63,13 @@ ul.posts a {color: #333}
     cursor: pointer;
 }
 
-/* #desktop {display: none;} */
+#desktop {display: none;}
+#mobile (display: inline;)
 
 
 @media (min-width: 600px) {
     body { margin: 60px auto; width: 70%; }
     nav ul, footer ul { font-size: 1.1em; padding: 0px; list-style: none; font-weight: 500; }
-/*    #mobile {display: none;} */
+    #mobile {display: none;}
+    #desktop {display: inline;}
 }
