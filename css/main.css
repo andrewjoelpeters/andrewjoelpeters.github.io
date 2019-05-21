@@ -33,7 +33,7 @@ ul.posts a {color: #333}
   .tooltip .tooltiptext {
     visibility: hidden;
     width: 120px;
-    background-color: #555;
+    background-color: #999;
     color: #fff;
     text-align: center;
     padding: 5px;
