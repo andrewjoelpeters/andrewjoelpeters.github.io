@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Three Most Helpful Functions to Clean Data in Python
+title: The Two Most Helpful Functions to Clean Data in Python
 date: 2019-05-26
 category: data
 
@@ -14,9 +14,9 @@ The first program I made for creating comparative data reports, built between bo
 
 Not long after, I reworked the program, bringing it down to 117 lines. I revisted it again yesterday, and trimmed it up once more -- to 27 lines of code. 
 
-## On Wrangling
+## On Preparing Data
 
-Wrangling data is a process that can be frustrating, or exceedingly satisfying. To me, tidying up raw data into a coherent and useful dataframe is an oddly delightful little challenge. I suppose its a bit like the digital counterpart to watching Marie Kondo bring order to chaos. 
+Preparing and transforming data is a process that can be frustrating, or exceedingly satisfying. To me, tidying up raw data into a coherent and useful dataframe is an oddly delightful little challenge. I suppose its a bit like the digital counterpart to watching Marie Kondo bring order to chaos. 
 
 ## Melt
 
@@ -25,6 +25,11 @@ Wrangling data is a process that can be frustrating, or exceedingly satisfying. 
 In the .CSV I pull from our assessment software after a round of testing, each test is listed as a different column in the table, making the data unruly and wide. What's worse, each grade's tests are listed distinctly, meaning the grade five literature final gets a separate column from the grade six literature final. This means that four our four grades, and four subjects of testing, we end up with sixteen columns for each student, when each student only took four tests. 
 
 Using `pandas.melt`, we can unpivot the original data, maintaining all indentifier variables, but stacking all score values in one long column called "score". Next to our "score" column, we'll place another column, "test", that specifies which test each score corresponds to. 
+
+``` python
+sb = sb.melt(id_vars = ['school', 'grade', 'teacher', 'section', 'student_id', 'student_name', 'course'], 
+             var_name = 'test', value_name='score')
+```
 
 Ahh, much better! From here, we can easily drop rows that don't have values (our 5th graders don't need a row showing NaN for the 8th grade tests they didn't take). The tidy format also makes it easy to apply functions to otherwise clean up the table. 
 

@@ -6,8 +6,7 @@ category: data
 
 ---
 
-![alt text]({{ '/assets/img/heatmap.gif' | relative_url }} "Dynamic Heat Map Example")
-*The overview tab of my finished report.*
+![alt text]({{ '/assets/img/heatmap.gif' | relative_url }} "Dynamic Heat Map Example") *The overview tab of my finished report.*
 
 ## The Problem
 
