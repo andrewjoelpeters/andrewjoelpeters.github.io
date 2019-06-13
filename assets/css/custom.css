@@ -2,6 +2,7 @@ body { margin: 10px auto; width: 90%; }
 
 a { text-decoration: none; color: #999; }
 a:hover { text-decoration: underline; }
+ul li a {color: #333; } /* change links in bulleted lists to normal color, useful for blog posts page */
 
 p, ul { font-size: 1.3em; line-height: 1.6em; color: #333; font-family: 'Lato', sans-serif; }
 
@@ -9,6 +10,9 @@ img {
   max-width: 100%;
   height: auto;
   width: auto\9; /* ie8 */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 h1, h2, h3, h4 { font-family: 'Helvetica', 'Arial', 'Sans-Serif'; }
@@ -25,14 +29,14 @@ footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
 /* Blog */
 ul.posts { margin: 20px auto 40px; font-size: 1.5em; }
 ul.posts li { list-style: none; }
-ul.posts a {color: #333; }
+
 
 /* Image Captions */
 img + em { 
   display: block; 
-  text-align: left;
-  font-size: .9em;  
-  color: #999; 
+  font-size: .9em !important;
+  color: #999;
+  text-align: center; 
 }
 
 /*Hide desktop elements */

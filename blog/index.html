@@ -3,9 +3,17 @@ layout: default
 title: Thoughts
 ---
 <h1> A Little Writing </h1>
-	<ul class="posts">
+	<ul class="posts"></ul>
 
-	  {% for post in site.posts %}
-	    <li><span>{{ post.category}}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
-	  {% endfor %}
+	{% assign sorted_cats = site.categories | sort %}
+	{% for category in sorted_cats %}
+	{% assign sorted_posts = category[1] | reversed %}
+	<h2 id="{{category[0] | uri_escape | downcase }}">{{category[0] | capitalize}}</H2>
+	<ul>
+	{% for post in sorted_posts %}
+	<li><a href="{{ site.url }}{{ site.baseurl }}{{  post.url }}">{{  post.title }}</a></li>
+	{% endfor %}
 	</ul>
+	{% endfor %}
+
+</ul>

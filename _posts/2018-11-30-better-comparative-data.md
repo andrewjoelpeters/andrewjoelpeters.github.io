@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Building a Better System for Comparative Academic Data
-date: 2014-04-30
+title: Creating a Better System for Comparative Academic Data
+date: 2018-11-30
 category: data
 
 ---
