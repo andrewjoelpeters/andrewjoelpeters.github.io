@@ -14,10 +14,11 @@ a:hover {
   text-decoration: underline;
 }
 
-ul.posts a {
+ul li a {
   color: #333;
 }
 
+/* change links in bulleted lists to normal color, useful for blog posts page */
 p, ul {
   font-size: 1.3em;
   line-height: 1.6em;
@@ -73,16 +74,19 @@ footer {
   font-size: 0.8em;
 }
 
-/* Blog */
-ul.posts {
-  margin: 20px auto 40px;
-  font-size: 1.5em;
+ol li {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #f1f5f7;
+  margin-right: 3px;
+  margin-bottom: 5px;
+  font-size: 1.3em;
+  line-height: 1.6em;
+  color: #333;
+  font-family: "Lato", sans-serif;
 }
 
-ul.posts li {
-  list-style: none;
-}
-
+/* changes ol styling for my cv. careful not to use OLs in blog posts! */
 /* Image Captions */
 img + em {
   display: block;
@@ -117,14 +121,6 @@ img + em {
     font-weight: 500;
     color: #999;
   }
-
-  ol li {
-    display: inline-block;
-    padding: 5px 10px;
-    background-color: #f1f5f7;
-    margin-right: 3px;
-    margin-bottom: 5px;
-  } 
 
   #mobile {
     display: none;
