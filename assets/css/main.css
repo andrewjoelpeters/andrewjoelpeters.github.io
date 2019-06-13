@@ -118,6 +118,14 @@ img + em {
     color: #999;
   }
 
+  ol li {
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #f1f5f7;
+    margin-right: 3px;
+    margin-bottom: 5px;
+  } 
+
   #mobile {
     display: none;
   }
