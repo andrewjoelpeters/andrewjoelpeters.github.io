@@ -1,8 +1,4 @@
-/* my css files */
-
-@import "custom";
-@import "code_highlights";
-
-.jupyter { 
-    @import "full_jupyter"
-}
+@import "defaults";
+@import "notebook";
+@import "cv";
+@import "button";
