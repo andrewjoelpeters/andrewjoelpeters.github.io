@@ -92,11 +92,11 @@ img + em {
 @media (min-width: 600px) {
   body {
     margin: 60px auto;
-    width: 70%;
+    width: 55%;
   }
 
   .container {
-    width: 80%;
+    width: 90%;
   }
 
   nav ul, footer ul {
@@ -115,6 +115,73 @@ img + em {
     display: inline;
   }
 }
+ol li {
+  display: inline-block;
+  padding: 5px 10px;
+  background-color: #f1f5f7;
+  margin-right: 3px;
+  margin-bottom: 5px;
+  font-size: 1.3em;
+  line-height: 1.6em;
+  color: #333;
+  font-family: "Lato", sans-serif;
+}
+
+/* changes ol styling for my cv. careful not to use OLs in blog posts! */
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #999;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  border-radius: 6px;
+  font-size: 0.9em;
+  font-family: "Lato", sans-serif;
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+  top: -5px;
+  left: 120%;
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* Arrow */
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent #999 transparent transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+button {
+  background: none !important;
+  color: #999;
+  border: none;
+  padding: 0 !important;
+  font: inherit;
+  cursor: pointer;
+}
+
 /* CSS font colors for translated ANSI colors. */
 .ansibold {
   font-weight: bold;
@@ -208,7 +275,11 @@ div.cell {
   border-width: 1px;
   border-style: solid;
   border-color: transparent;
-  width: 100%;
+  /* This aligns the input/output text to the left of the post body, 
+  so the return cell is left-aligned with the rest of the post. */
+  position: relative;
+  left: -118px;
+  width: 115%;
   padding: 5px;
   /* This acts as a spacer between cells, that is outside the border */
   margin: 0px;
@@ -372,10 +443,6 @@ div.unrecognized_cell .inner_cell a:hover {
     display: none;
   }
 }
-div.code_cell {
-  /* avoid page breaking on code cells when printing */
-}
-
 @media print {
   div.code_cell {
     page-break-inside: avoid;
@@ -884,10 +951,6 @@ div.output_javascript:empty {
 div.raw_input_container {
   line-height: 1.21429em;
   padding-top: 5px;
-}
-
-pre.raw_input_prompt {
-  /* nothing needed here. */
 }
 
 input.raw_input {
@@ -1586,78 +1649,12 @@ table {
   border-spacing: 0px;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 0.85em;
+  color: #333;
 }
 
 code, kbd, pre, samp, .prompt {
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
   font-size: 0.8em;
-}
-
-ol li {
-  display: inline-block;
-  padding: 5px 10px;
-  background-color: #f1f5f7;
-  margin-right: 3px;
-  margin-bottom: 5px;
-  font-size: 1.3em;
-  line-height: 1.6em;
-  color: #333;
-  font-family: "Lato", sans-serif;
-}
-
-/* changes ol styling for my cv. careful not to use OLs in blog posts! */
-/* Tooltip container */
-.tooltip {
-  position: relative;
-  display: inline-block;
-}
-
-/* Tooltip text */
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: 120px;
-  background-color: #999;
-  color: #fff;
-  text-align: center;
-  padding: 5px;
-  border-radius: 6px;
-  font-size: 0.9em;
-  font-family: "Lato", sans-serif;
-  /* Position the tooltip text */
-  position: absolute;
-  z-index: 1;
-  top: -5px;
-  left: 120%;
-  /* Fade in tooltip */
-  opacity: 0;
-  transition: opacity 0.3s;
-}
-
-/* Arrow */
-.tooltip .tooltiptext::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  right: 100%;
-  margin-top: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: transparent #999 transparent transparent;
-}
-
-/* Show the tooltip text when you mouse over the tooltip container */
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-  opacity: 1;
-}
-
-button {
-  background: none !important;
-  color: #999;
-  border: none;
-  padding: 0 !important;
-  font: inherit;
-  cursor: pointer;
 }
 
 /*# sourceMappingURL=main.css.map */

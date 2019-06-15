@@ -40,8 +40,8 @@ img + em {
 
 
 @media (min-width: 600px) {
-    body { margin: 60px auto; width: 70%; }
-    .container {width: 80%}
+    body { margin: 60px auto; width: 55%; }
+    .container { width: 90%}
     nav ul, footer ul { font-size: 1.1em; padding: 0px; list-style: none; font-weight: 500; color: #999}
     #mobile {display: none;}
     #desktop {display: inline;}
