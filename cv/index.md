@@ -1,7 +1,7 @@
 ---
 layout: default
 title: CV
-# custom_css: cv
+custom_css: cv
 ---
 
 ### EXPERIENCE
