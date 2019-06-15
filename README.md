@@ -1,1 +1,1 @@
-Personal site of Andrew Peters
+My personal site
