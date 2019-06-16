@@ -6,7 +6,7 @@ category: thoughts
 
 ---
 
-## Introduction (2 min read)
+## Introduction
 
 The first time I read Herman Melville’s *Moby-Dick*, I was on a 32-foot
 gillnetter in Bristol Bay, Alaska. It was my second summer fishing for

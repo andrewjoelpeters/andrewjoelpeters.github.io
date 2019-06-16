@@ -7,12 +7,9 @@ category: thoughts
 ---
 *From my journal during a year in Borneo as a Fulbright grantee.*
 
-
 ![alt text]({{ '/assets/img/rice.png' | relative_url }} "Rice Vendor, Kota Marudu, Malaysia") *Rice vendor. Kota Marudu, Malaysia.*
 
-For my first lunch in the school canteen, I served myself a plate of stir-fried vegetables and chicken. But something was conspicuously absent. Teacher after teacher paused as they walked past, to ask the same pseudo-question, over and over, *you don’t take rice?*. There was just enough inflection to hurdle ostracism, but not so much as to indicate that a riceless plate was a reasonable choice. I do not doubt that every teacher who walked into the canteen the first day I ate there made this comment.
-
-I started *taking* rice so that I could finish my lunch. It was hard to get through a meal when every adult in the vicinity probed my eating habits and wondered about my health. So I would reach for the stainless ladle, bump off the water from the pitcher it sat in, and dig out a modest scoop of rice from the five gallon, double-walled plastic bucket that retained it. The rice would occupy the corner of my plate, never more than necessary. While other teachers would cover their plates in rice, and add some vegetables on top, I kept mine to the side to ensure its visibility. I thought about these things.
+I started eating rice so that I could finish my lunch. It was hard to get through a meal at my school's canteen when every adult in the vicinity probed my eating habits and wondered about my health. So I would reach for the stainless ladle, bump off the water from the pitcher it sat in, and dig out a modest scoop of rice from the five gallon, double-walled plastic bucket that retained it. The rice would occupy the corner of my plate, never more than necessary. While other teachers would cover their plates in rice, and add some vegetables on top, I kept mine to the side to ensure its visibility. I thought about these things.
 
 I never liked rice though. In part, I’m sure, because I had somehow grown to believe it was unhealthy, despite my lack of any knowledge on the subject. But for other, perhaps less tangible reasons as well. Rice is boring. Which is not, in itself, a dealbreaker. Potatoes are boring and they are wonderful. But the boring foods I like are my comfort foods. My mother never made me a big pot of white rice for my birthday. My stepmom never served mashed rice to a full house. White rice is not a family memories sort of food. It is a peculiar intersect of foreign and boring. And why delve into the foreign if not to seek excitement?
 

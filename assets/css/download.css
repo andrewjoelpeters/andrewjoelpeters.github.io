@@ -1,0 +1,24 @@
+.pull-right {
+	float: right !important;
+}
+
+.btn {
+	display: inline-block;
+	padding: 6px 12px;
+	margin-bottom: 0;
+	font-size: .7em;
+	font-weight: normal;
+	line-height: 1.3;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	cursor: pointer;
+	border: 1px solid;
+	border-radius: 4px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+    user-select: none;
+    color: #333
+}

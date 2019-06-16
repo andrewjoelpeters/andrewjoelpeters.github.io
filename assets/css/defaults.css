@@ -25,6 +25,7 @@ nav ul, footer ul { font-size: 1.4em; padding: 0px; list-style: none; font-weigh
 nav ul li, footer ul li { display: inline; margin-right: 20px; }
 
 footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
+.footnotes {border-top: 1px solid #d5d5d5; font-size: .9em; }
 
 /* Image Captions */
 img + em { 

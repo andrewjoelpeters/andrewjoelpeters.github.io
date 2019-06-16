@@ -1,8 +1,10 @@
 ---
 layout: default
-title: CV
+title: Resume
 custom_css: cv
 ---
+
+<a href="/assets/files/Peters-Resume.pdf" class="btn pull-right" title="Download Resume as PDF">Download Resume</a>
 
 ### EXPERIENCE
 #### Success Academy Charter Schools
@@ -25,7 +27,7 @@ Fulbright Fellow, *Jan. 2016 - Nov. 2016*
 
 Founder and Operations Manager, *Nov. 2011 - May 2015*
 
-* Founded student-run coffee from ground-up
+* Founded student-run coffee shop from ground-up
 * Profited 200% of startup costs within eight months of opening
 * Established a cooperative structure that has ensured five years of successful student-run operations
 
