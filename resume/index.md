@@ -4,7 +4,7 @@ title: Resume
 custom_css: cv
 ---
 
-<a href="/assets/files/Peters-Resume.pdf" class="btn pull-right" title="Download Resume as PDF">Download Resume</a>
+<a href="/assets/files/Peters-Resume.pdf" class="btn" title="Download Resume as PDF">Download Resume</a>
 
 ### EXPERIENCE
 #### Success Academy Charter Schools
