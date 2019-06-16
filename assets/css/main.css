@@ -292,11 +292,6 @@ div.cell {
   border-width: 1px;
   border-style: solid;
   border-color: transparent;
-  /* This aligns the input/output text to the left of the post body, 
-  so the return cell is left-aligned with the rest of the post. */
-  position: relative;
-  left: -118px;
-  width: 115%;
   padding: 5px;
   /* This acts as a spacer between cells, that is outside the border */
   margin: 0px;
@@ -1673,6 +1668,16 @@ table {
 code, kbd, pre, samp, .prompt {
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
   font-size: 0.8em;
+}
+
+@media (min-width: 600px) {
+  div.cell {
+    /* This aligns the input/output text to the left of the post body, 
+    so the return cell is left-aligned with the rest of the post. */
+    position: relative;
+    left: -118px;
+    width: 115%;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
