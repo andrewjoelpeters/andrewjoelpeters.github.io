@@ -6,6 +6,8 @@ title: About
 
 I like challenges and big questions. I tend to think things can be done better. Reach out at _hi@andrewjoelpeters.com_.
 
+**Books**
+
 What I'm currently reading:
 
  - _The Better Angels of our Nature_, Steven Pinker
@@ -20,3 +22,9 @@ What I'm currently reading:
 
  - _They Can't Kill Us Until They Kill Us_, Hanif Abdurraqib
  - _Just Mercy_, Bryan Stevenson
+
+ **Photos**
+
+ Fun fact: when I was in 7th grade I wanted to be a photojournalist. I spent late nights in high school processing film in the bathroom of my dad's house. I don't want to be a photojournalist anymore, but I still enjoy cameras. A few of my more recent photos:
+
+ {% include image-gallery.html folder="/assets/album" %}
