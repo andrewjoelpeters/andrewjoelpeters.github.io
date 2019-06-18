@@ -4,7 +4,7 @@ title: About
 ---
 # About Me
 
-I like challenges and big questions. I tend to think things can be done better. Reach out at _hi@andrewjoelpeters.com_.
+I like challenges and big questions. I tend to think things can be done better. Reach out at _andrewjoelpeters@gmail.com_.
 
 **Books**
 
