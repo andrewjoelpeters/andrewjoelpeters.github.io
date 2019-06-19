@@ -28,6 +28,3 @@ What I'm currently reading:
  Fun fact: when I was in 7th grade I wanted to be a photojournalist. I spent late nights in high school processing film in the bathroom of my dad's house. I don't want to be a photojournalist anymore, but I still enjoy cameras. A few of my more recent photos:
 
  {% include image-gallery.html folder="/assets/album" %}
-
- <script src="/js/jquery.min.js"></script>
-{% include lightbox.html %}
