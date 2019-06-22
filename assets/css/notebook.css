@@ -969,10 +969,16 @@
     color: #333;
   }
   
-  code, kbd, pre, samp, .prompt {
+  kbd, pre, samp, .prompt {
       font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
       font-size: .8em;
   }
+
+   code {
+       font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+       font-size: 1em;
+  }
+
   
   @media (min-width: 600px) {
     div.cell {
