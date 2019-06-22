@@ -8,19 +8,19 @@ category: data
 
 ## Losing Weight
 
-The first program I made for creating comparative data reports, built between bouts of thanksgiving meals, was pudgy itself. I didn’t save a copy of it and never counted, but I’d bet it was in exces of 1,000 lines of code. It worked, but it didn’t look too pretty.
+The first program I made for creating comparative data reports, built between bouts of Thanksgiving meals, was pudgy itself. I didn’t save a copy of it and never counted, but I’d bet it was in excess of 1,000 lines of code. It worked, but it didn’t look too pretty.
 
 Not long after, I reworked the program, bringing it down to 117 lines. I revisted it again yesterday, and trimmed it up once more – to 27 lines of code.
 
 ## On Preparing Data
 
-Preparing and transforming data is a process that can be frustrating, or exceedingly satisfying. To me, tidying up raw data into a coherent and useful dataframe is an oddly delightful little challenge. I suppose its a bit like the digital counterpart to watching Marie Kondo bring order to chaos.
+Preparing and transforming data is a process that can be frustrating, or exceedingly satisfying. To me, tidying up raw data into a coherent and useful dataframe is an oddly delightful little challenge. I suppose it's a bit like the digital counterpart to watching Marie Kondo bring order to chaos.
 
 ## Melt
 
 `pandas.melt` is a beautiful little function, that transforms a wide dataset into a long one. We could do this manually by slicing and concatenating dataframes, or we could use this to do it smoothly and easily. 
 
-In the .CSV I pull from our assessment software after a round of testing, each test is listed as a different column in the table, making the data unruly and wide. What’s worse, each grade’s tests are listed distinctly, meaning the grade five literature final gets a separate column from the grade six literature final. This means that four our four grades, and four subjects of testing, we end up with sixteen columns for each student, when each student only took four tests.
+In the .CSV I pull from our assessment software after a round of testing, each test is listed as a different column in the table, making the data unruly and wide. What’s worse, each grade’s tests are listed distinctly, meaning the grade five literature final gets a separate column from the grade six literature final. This means that for our four grades, and four subjects of testing, we end up with sixteen columns for each student, when each student only took four tests.
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
 <div class="prompt input_prompt">In&nbsp;[2]:</div>
