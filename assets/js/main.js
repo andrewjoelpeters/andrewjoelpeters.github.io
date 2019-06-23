@@ -12,10 +12,15 @@ function copyText (text) {
     document.execCommand('copy');
     // Remove the element to keep the document clear.
     document.body.removeChild(element);
-    button_clicked();
+    change_text("copied!");
+    setTimeout(success, 3000);
   }
 
-function button_clicked () {
+function change_text (tooltip) {
   var txt = document.getElementsByClassName("tooltiptext");
-  txt[0].innerHTML = "copied!";
+  txt[0].innerHTML = tooltip;
+}
+
+function success() {
+  change_text("copy to clipboard");
 }
