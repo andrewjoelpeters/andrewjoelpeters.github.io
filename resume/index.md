@@ -11,12 +11,11 @@ custom_css: cv
 Education Manager, *Jul. 2018 - Present*  
 Education Coordinator, *Jul. 2017 - Jul. 2018*
 
+* Managed team of 3 directly, and projects involving staff of 46
+* Directed entire special education program, from challenging parent conversations to creation of intervention system
 * Built automated workflows using Python to analyze educational data of 3,400 students across 15 middle schools
 * Produced SMS and email campaigns to communicate data and improve school performance
 * Led staff development and implemented programs to drive instructional change, as member of 5-person school leadership team
-* Managed team of 4 directly, and projects involving staff of 46
-* Directed academic intervention and special education programs, leading parents through tough decisions and challenging conversations
-
 
 #### U.S. Fulbright Program, Malaysia
 Fulbright Fellow, *Jan. 2016 - Nov. 2016*
