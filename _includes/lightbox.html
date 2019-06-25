@@ -21,8 +21,10 @@
 		max-height: 1200px;
 	}
 }
+
+/* display: none so that there are no captions */
 .lightbox span {
-		display: block; 
+		display: none; 
 		position: fixed; 
 		bottom: 13px; 
 		height: 1.5em; 
@@ -72,8 +74,8 @@
 }   
 .lightbox #prev, .lightbox #next {height: 50px; line-height: 36px; display: none; margin-top: -25px; position: fixed; top: 50%; padding: 0 15px; cursor: pointer; text-decoration: none; z-index: 99; color: white; font-size: 60px;}
 .lightbox.gallery #prev, .lightbox.gallery #next {display: block;}
-.lightbox #prev {left: 0;}
-.lightbox #next {right: 0;}
+.lightbox #prev {left: 5%;}
+.lightbox #next {right: 5%;}
 .lightbox #close {height: 50px; width: 50px; position: fixed; cursor: pointer; text-decoration: none; z-index: 99; right: 0; top: 0;}
 .lightbox #close:after, .lightbox #close:before {position: absolute; margin-top: 22px; margin-left: 14px; content: ""; height: 3px; background: white; width: 23px;
 -webkit-transform-origin: 50% 50%;
