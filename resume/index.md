@@ -18,7 +18,7 @@ Education Coordinator, *Jul. 2017 - Jul. 2018*
 * Led staff development and implemented programs to drive instructional change, as member of 5-person school leadership team
 
 #### Columbia Center for Public Research and Leadership
-Analyst, *Jun. 2017 - Aug. 2017*
+Analyst, *Jun. 2018 - Aug. 2018*
 
 * Analyzed Census, IRS, and state testing data to support client's case for a new school funding model
 * Created data visualizations using Qlik Sense to present findings to non-technical audiences
