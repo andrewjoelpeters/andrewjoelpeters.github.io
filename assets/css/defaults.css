@@ -42,14 +42,14 @@ img + em {
 }
 
 /*Hide desktop elements */
-#desktop {display: none;}
-#mobile {display: inline;}
+.desktop {display: none !important;}
+.mobile {display: inline;}
 
 
 @media (min-width: 600px) {
     body { margin: 60px auto; width: 55%; }
     .container { width: 90%}
     nav ul, footer ul { font-size: 1.1em; padding: 0px; list-style: none; font-weight: 500; color: #999}
-    #mobile {display: none;}
-    #desktop {display: inline;}
+    .mobile {display: none !important;}
+    .desktop {display: inline;}
 }

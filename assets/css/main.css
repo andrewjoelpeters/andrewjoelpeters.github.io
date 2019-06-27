@@ -87,11 +87,11 @@ img + em {
 }
 
 /*Hide desktop elements */
-#desktop {
+.desktop {
   display: none;
 }
 
-#mobile {
+.mobile {
   display: inline;
 }
 
@@ -113,11 +113,11 @@ img + em {
     color: #999;
   }
 
-  #mobile {
-    display: none;
+  .mobile {
+    display: none !important;
   }
 
-  #desktop {
+  .desktop {
     display: inline;
   }
 }
@@ -130,22 +130,31 @@ img + em {
 /* Tooltip text */
 .tooltip .tooltiptext {
   visibility: hidden;
-  width: 120px;
   background-color: #999;
   color: #fff;
   text-align: center;
-  padding: 5px;
   border-radius: 6px;
   font-size: 0.9em;
   font-family: "Lato", sans-serif;
   /* Position the tooltip text */
   position: absolute;
   z-index: 1;
-  top: -5px;
-  left: 120%;
   /* Fade in tooltip */
   opacity: 0;
   transition: opacity 0.3s;
+}
+
+.footer {
+  width: 120px;
+  left: 120%;
+  top: -5px;
+  padding: 5px;
+}
+
+.body {
+  width: 60%;
+  padding: 1px;
+  left: 105%;
 }
 
 /* Arrow */
@@ -1055,6 +1064,7 @@ div.output_unrecognized a:hover {
 .rendered_html td,
 .rendered_html * + table {
   margin-top: 1em;
+  padding: 3px;
 }
 
 .rendered_html * + p {
@@ -1661,15 +1671,21 @@ h6:hover .anchor-link {
 }
 
 table {
-  border-spacing: 0px;
+  border-collapse: collapse;
+  border: 1px;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 0.85em;
   color: #333;
 }
 
-code, kbd, pre, samp, .prompt {
+kbd, pre, samp, .prompt {
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
   font-size: 0.8em;
+}
+
+code {
+  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+  font-size: 1em;
 }
 
 @media (min-width: 600px) {
