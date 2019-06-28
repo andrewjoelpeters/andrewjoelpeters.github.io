@@ -1,5 +1,6 @@
 // This must be triggered by a user event.
 function copyText (text) {
+    event.preventDefault();
     // Create the textarea input to hold our text.
     const element = document.createElement('textarea');
     element.value = text;
