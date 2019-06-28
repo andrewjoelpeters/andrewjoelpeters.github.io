@@ -5,10 +5,10 @@ title: About
 # About Me
 
 I like challenges and big questions. I tend to think things can be done better. Reach out at 
-<span class="mobile"><a href="mailto:hi@andrewjoelpeters.com">andrewjoelpeters@gmail.com</a></span>
-<span class="tooltip desktop"><button onclick='copyText("andrewjoelpeters@gmail.com")'>andrewjoelpeters@gmail.com</button>
+<span class="mobile"><a href="mailto:hi@andrewjoelpeters.com">andrewjoelpeters@gmail.com.</a></span>
+<span class="tooltip desktop"><button onclick='copyText("andrewjoelpeters@gmail.com")'>andrewjoelpeters@gmail.com.</button>
     <span class="tooltiptext body">copy to clipboard</span>
-    </span>.
+    </span>
 
 
 **Books**
