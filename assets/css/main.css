@@ -137,11 +137,13 @@ img + em {
   font-size: 0.9em;
   font-family: "Lato", sans-serif;
   /* Position the tooltip text */
-  position: absolute;
+  position: relative;
   z-index: 1;
   /* Fade in tooltip */
   opacity: 0;
   transition: opacity 0.3s;
+  left: .5em;
+  padding: 5px;
 }
 
 .footer {
@@ -1690,7 +1692,7 @@ code {
 
 @media (min-width: 600px) {
   div.cell {
-    /* This aligns the input/output text to the left of the post body, 
+    /* This aligns the input/output text to the left of the post body,
     so the return cell is left-aligned with the rest of the post. */
     position: relative;
     left: -118px;
