@@ -87,13 +87,8 @@ img + em {
 }
 
 /*Hide desktop elements */
-.desktop {
-  display: none;
-}
-
-.mobile {
-  display: inline;
-}
+.desktop {display: none !important;}
+.mobile {display: inline;}
 
 @media (min-width: 600px) {
   body {
