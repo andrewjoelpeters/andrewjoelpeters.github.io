@@ -130,6 +130,7 @@ img + em {
   border-radius: 6px;
   font-size: 0.9em;
   font-family: "Lato", sans-serif;
+  white-space: nowrap;
   /* Position the tooltip text */
   position: relative;
   z-index: 1;
