@@ -21,12 +21,12 @@ h2 { font-size: 2em; font-weight: 300 }
 h3 { font-size: 2.3em; }
 h4 { font-size: 1.9em; }
 
-nav ul, footer ul { 
+nav ul, footer ul {
   font-size: 1.2em;
   font-size: 5vw;
-  padding: 0px; 
-  list-style: none; 
-  font-weight: 500; 
+  padding: 0px;
+  list-style: none;
+  font-weight: 500;
 }
 nav ul li, footer ul li { display: inline; margin-right: 20px; }
 
@@ -34,15 +34,15 @@ footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
 .footnotes {border-top: 1px solid #d5d5d5; font-size: .9em; }
 
 /* Image Captions */
-img + em { 
-  display: block; 
+img + em {
+  display: block;
   font-size: .9em !important;
   color: #999;
-  text-align: center; 
+  text-align: center;
 }
 
 /*Hide desktop elements */
-.desktop {display: none !important;}
+.desktop {display: none;}
 .mobile {display: inline;}
 
 
@@ -50,6 +50,6 @@ img + em {
     body { margin: 60px auto; width: 55%; }
     .container { width: 90%}
     nav ul, footer ul { font-size: 1.1em; padding: 0px; list-style: none; font-weight: 500; color: #999}
-    .mobile {display: none !important;}
+    .mobile {display: none;}
     .desktop {display: inline;}
 }

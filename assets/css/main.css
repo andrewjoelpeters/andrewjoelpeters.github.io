@@ -87,7 +87,7 @@ img + em {
 }
 
 /*Hide desktop elements */
-.desktop {display: none !important;}
+.desktop {display: none;}
 .mobile {display: inline;}
 
 @media (min-width: 600px) {
@@ -109,7 +109,7 @@ img + em {
   }
 
   .mobile {
-    display: none !important;
+    display: none;
   }
 
   .desktop {
@@ -119,7 +119,6 @@ img + em {
 /* Tooltip container */
 .tooltip {
   position: relative;
-  display: inline-block;
 }
 
 /* Tooltip text */
