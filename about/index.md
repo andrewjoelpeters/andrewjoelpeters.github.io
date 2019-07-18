@@ -17,8 +17,8 @@ What I'm currently reading:
 
  - _The Better Angels of our Nature_, Steven Pinker
  - _Unaccustomed Earth_, Jhumpa Lahiri
- - _Winners Take All_, Anand Giridharadas
-
+ - _Poor Economics_, Esther Duflo, Abhijit Banerjee
+ 
  What's next on my bedside table:
 
  - _Strangers Drowning_, Larissa MacFarquhar
@@ -27,6 +27,7 @@ What I'm currently reading:
 
  - _They Can't Kill Us Until They Kill Us_, Hanif Abdurraqib
  - _Just Mercy_, Bryan Stevenson
+ - _Winners Take All_, Anand Giridharadas
 
  **Photos**
 
