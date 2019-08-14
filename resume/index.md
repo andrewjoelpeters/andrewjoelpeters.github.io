@@ -7,8 +7,11 @@ custom_css: cv
 <a href="/assets/files/Peters-Resume.pdf" class="btn" title="Download Resume as PDF">Download Resume</a>
 
 ### EXPERIENCE
+#### Newsela
+Content Acquisition Associate, *Aug. 2019 - Present*
+
 #### Success Academy Charter Schools
-Education Manager, *Jul. 2018 - Present*  
+Education Manager, *Jul. 2018 - Jun. 2019*  
 Education Coordinator, *Jul. 2017 - Jul. 2018*
 
 * Managed team of 3 directly, and projects involving staff of 46
