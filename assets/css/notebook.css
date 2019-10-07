@@ -539,7 +539,6 @@
   }
   div.output_prompt {
     color: #D84315;
-    padding-top: 1.8em;
   }
   /* This class is the outer container of all output sections. */
   div.output_area {
