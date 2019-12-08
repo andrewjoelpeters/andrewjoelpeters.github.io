@@ -15,19 +15,21 @@ I like challenges and big questions. I tend to think things can be done better. 
 
 What I'm currently reading:
 
- - _The Better Angels of our Nature_, Steven Pinker
- - _Unaccustomed Earth_, Jhumpa Lahiri
- - _Poor Economics_, Esther Duflo, Abhijit Banerjee
+ - _1Q84_, Haruki Murakami
  
  What's next on my bedside table:
 
- - _Strangers Drowning_, Larissa MacFarquhar
+ - _Debt: The First 5,000 Years_, David Graeber
 
  What I've recently finished:
 
  - _They Can't Kill Us Until They Kill Us_, Hanif Abdurraqib
  - _Just Mercy_, Bryan Stevenson
  - _Winners Take All_, Anand Giridharadas
+ - _The Better Angels of our Nature_, Steven Pinker
+ - _Unaccustomed Earth_, Jhumpa Lahiri
+ - _Poor Economics_, Esther Duflo, Abhijit Banerjee
+ - _Strangers Drowning_, Larissa MacFarquhar
 
  **Photos**
 
