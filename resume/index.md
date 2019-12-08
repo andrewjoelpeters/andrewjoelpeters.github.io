@@ -4,7 +4,8 @@ title: Resume
 custom_css: cv
 ---
 
-<a href="/assets/files/Peters-Resume.pdf" class="btn" title="Download Resume as PDF">Download Resume</a>
+<!-- <a href="/assets/files/Peters-Resume.pdf" class="btn" title="Download Resume as PDF">Download Resume</a> -->
+
 
 ### EXPERIENCE
 #### Newsela
