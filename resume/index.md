@@ -1,9 +1,8 @@
 ---
 layout: default
-title: Resume
 custom_css: cv
 ---
-
+<!-- title removed from front matter so that this page doesn't show up in the nav bar -- >
 <!-- <a href="/assets/files/Peters-Resume.pdf" class="btn" title="Download Resume as PDF">Download Resume</a> -->
 
 
