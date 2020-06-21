@@ -13,8 +13,8 @@ title: Photos
   {% assign photo_pages = site.pages | where: "layout", "photo_set" %}
   {% for photo_page in photo_pages %}
         <a href="{{ photo_page.url | prepend: site.baseurl }}" title="{{ photo_page.title }}">
-            <img src="{{ site.baseurl }}/assets/photos/{{ photo_page.photos.set }}-{{ 1 }}.jpg" alt="Photo {{ 1 }} from {{ page.photos.set | capitalize }}">
             <h2>{{ photo_page.title}}</h2>
+            <img src="{{ site.baseurl }}/assets/photos/{{ photo_page.photos.set }}-{{ 1 }}.jpg" alt="Photo {{ 1 }} from {{ page.photos.set | capitalize }}">
         </a>
   {% endfor %}
 </div>
